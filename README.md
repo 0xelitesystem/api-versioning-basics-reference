@@ -8,15 +8,19 @@ API versioning is the practice of letting an API change over time without breaki
 
 ## What is inside
 
-- `01-why-version-apis.md` the problem versioning solves.
-- `02-where-to-put-the-version.md` URL versus header approaches.
-- `03-breaking-vs-non-breaking.md` what counts as a breaking change.
-- `04-semver-for-apis.md` semantic versioning applied to APIs.
-- `05-deprecation-and-sunset.md` retiring old versions responsibly.
+- [01-why-version-apis.md](01-why-version-apis.md) the problem versioning solves.
+- [02-where-to-put-the-version.md](02-where-to-put-the-version.md) URL versus header approaches.
+- [03-breaking-vs-non-breaking.md](03-breaking-vs-non-breaking.md) what counts as a breaking change.
+- [04-semver-for-apis.md](04-semver-for-apis.md) semantic versioning applied to APIs.
+- [05-deprecation-and-sunset.md](05-deprecation-and-sunset.md) retiring old versions responsibly.
 
 ## The stance
 
 This reference treats versioning as a promise to your callers, not a technical formality. The goal is to evolve the API while honoring the contract people already built against, which means being conservative about breaking changes and generous with notice when you make them.
+
+## More
+
+Part of a catalog of single-file browser tools and plain-language references, all MIT licensed and dependency-free: [0xelitesystem.github.io](https://0xelitesystem.github.io/). Built by [elitesystem.ai](https://elitesystem.ai).
 
 ## License
 
